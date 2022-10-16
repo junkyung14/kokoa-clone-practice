@@ -10,9 +10,11 @@
 @import "components/user-component.css";
 @import "components/badge.css";
 @import "components/icon-row.css";
+@import "components/alter-screen-header.css";
 
 /* screens */
 @import "screens/login.css";
+
 @import "screens/friends.css";
 @import "screens/find.css";
 
@@ -20,5 +22,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 .main-screen {
+  border-top: var(--horizontal-space);
+  margin: 150px 0px;
   padding: 0px var(--horizontal-space);
 }

@@ -37,7 +37,7 @@
   display: flex;
   border-radius: 50%;
   position: absolute;
-  left: 155px;
+  left: 115px;
   bottom: 30px;
 }
 .nav__more-info-cog__find {
@@ -47,6 +47,6 @@
   display: flex;
   border-radius: 50%;
   position: absolute;
-  left: 90px;
+  left: 70px;
   bottom: 30px;
 }

@@ -1,4 +1,5 @@
 .icons-row {
+  margin-top: 30px;
   display: flex;
   justify-content: space-between;
 }
@@ -12,4 +13,5 @@
 }
 .icons-row__icon span {
   margin-top: 20px;
+  font-size: 12px;
 }
