@@ -15,4 +15,5 @@
 }
 .screen-header__icons span {
   margin: 20px;
+  position: relative;
 }
