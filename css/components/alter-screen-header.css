@@ -3,11 +3,11 @@
   justify-content: center;
   padding: var(--horizontal-space);
   align-items: center;
-  position: fixed;
   width: 100%;
   box-sizing: border-box;
-  top: 32px;
+  margin-top: 32px;
 }
+
 .alt-header__title {
   font-size: 25px;
   font-weight: 600;

@@ -8,7 +8,7 @@
     <link href="css/style.css" rel="stylesheet" />
   </head>
   <body id="chat-screen">
-    <div class="status-bar">
+    <div class="status-bar main-chat-status">
       <div class="status-bar__column">
         <span>No Service</span>
         <i class="fas fa-wifi"></i>
@@ -22,7 +22,7 @@
         <i class="fas fa-bolt"></i>
       </div>
     </div>
-    <header class="alt-header">
+    <header class="alt-header main-chat-header">
       <div class="alt-header__column">
         <a href="javascript:history.back();"
           ><i class="fas fa-angle-left fa-2x"></i
@@ -37,7 +37,12 @@
       </div>
     </header>
 
-    <main class="main-screen"></main>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">
+        <i class="far fa-calendar-alt"></i>
+        <span>2022년 10월 16일 일요일</span>
+      </div>
+    </main>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
