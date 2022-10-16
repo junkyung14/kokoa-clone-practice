@@ -17,6 +17,7 @@
 @import "screens/friends.css";
 @import "screens/find.css";
 @import "screens/settings.css";
+@import "screens/chat-room.css";
 
 body {
   font-family: "Open Sans", sans-serif;
