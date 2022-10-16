@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Nunito:wght@400;600;900&display=swap");
 @import "reset.css";
 @import "variables.css";
 
@@ -20,7 +21,7 @@
 @import "screens/chat-room.css";
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Gamja Flower", cursive;
 }
 .main-screen {
   border-top: var(--horizontal-space);
