@@ -30,7 +30,17 @@
   left: 30px;
   bottom: 30px;
 }
-.nav__more-info-cog {
+.nav__more-info-cog__more {
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  display: flex;
+  border-radius: 50%;
+  position: absolute;
+  left: 155px;
+  bottom: 30px;
+}
+.nav__more-info-cog__find {
   background-color: tomato;
   width: 8px;
   height: 8px;
@@ -38,5 +48,5 @@
   border-radius: 50%;
   position: absolute;
   left: 90px;
-  bottom: 50px;
+  bottom: 30px;
 }
