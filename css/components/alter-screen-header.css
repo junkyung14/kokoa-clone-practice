@@ -17,4 +17,9 @@
 }
 .alt-header__column:last-child {
   margin-left: auto;
+  position: relative;
+}
+.chatroom__search {
+  position: absolute;
+  right: 40px;
 }
