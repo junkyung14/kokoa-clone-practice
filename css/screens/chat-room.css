@@ -1,6 +1,22 @@
+#chat-screen .main-chat-status {
+  z-index: 1;
+}
+.main-chat-header {
+  z-index: 1;
+}
 #chat-screen {
   background-color: #abc1d1;
-  height: 1100vh;
+  height: 300vh;
+}
+@keyframes fadeIn {
+  from {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
 }
 .main-chat {
   display: flex;
@@ -33,6 +49,8 @@
   margin-bottom: 25px;
 }
 .message-row {
+  animation: fadeIn 0.3s linear forwards;
+  opacity: 0;
   width: 100%;
   display: flex;
   margin-bottom: 25px;
@@ -92,6 +110,7 @@
 .type-district input {
   height: 30px;
   width: 100%;
+  padding: 0px 14px;
   border: var(--main-border);
   border-radius: 20px;
 }
