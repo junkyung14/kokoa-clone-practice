@@ -78,3 +78,44 @@
 .message-row-own .message__detail {
   flex-direction: row-reverse;
 }
+.type-district {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 25px;
+  align-items: center;
+  box-sizing: border-box;
+}
+.type-district input {
+  height: 30px;
+  width: 100%;
+  border: var(--main-border);
+  border-radius: 20px;
+}
+.type-district .text-box:first-child {
+  width: 10%;
+}
+.type-district .text-box:last-child {
+  width: 90%;
+}
+.text-box:last-child {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.fa-smile {
+  position: absolute;
+  right: 50px;
+  bottom: 8.5px;
+}
+.text-box:last-child a {
+  position: absolute;
+  right: 20px;
+  bottom: 7.413px;
+}
+.type-district i:not(.fa-plus) {
+  opacity: 0.5;
+}
