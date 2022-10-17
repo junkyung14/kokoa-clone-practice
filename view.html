@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Settings - KokoaTalk</title>
+    <title>Find - KokoaTalk</title>
     <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
@@ -18,42 +18,141 @@
         <i class="fas fa-battery-full fa-lg"></i>
       </div>
     </div>
-    <header class="alt-header">
-      <div class="alt-header__column">
-        <a href="javascript:history.back();"
-          ><i class="fas fa-angle-left fa-2x"></i
-        ></a>
-      </div>
-      <div class="alt-header__column">
-        <h1 class="alt-header__title">Settings</h1>
-      </div>
-      <div class="alt-header__column">
-        <i class="fas fa-search fa-lg"></i>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">뷰</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search"></i></span>
+        <span
+          ><a href="settings.html"><i class="fas fa-cog"></i></a
+        ></span>
       </div>
     </header>
 
     <main class="main-screen">
-      <ul class="settings-list">
-        <li class="settings__setting">
-          <div class="settings-setting-column">
-            <i class="fas fa-bullhorn"></i>
-            <span>Notices</span>
+      <div class="icons-row">
+        <div class="icons-row__icon">
+          <span class="my-view__now-focus">My 뷰</span>
+        </div>
+        <div class="icons-row__icon">
+          <span class="not-focused">발견</span>
+        </div>
+        <div class="icons-row__icon">
+          <span class="not-focused">카카오TV</span>
+        </div>
+        <div class="icons-row__icon">
+          <span class="not-focused">코로나19</span>
+        </div>
+        <div class="icons-row__icon">
+          <span class="not-focused">잔여백신</span>
+        </div>
+      </div>
+      <div class="recommended-header">
+        <div class="header-title__box">
+          <span class="recommended-header__title">My뷰 관리</span>
+          <span class="recommended-header__title-category">편집순 최신순</span>
+        </div>
+
+        <div class="my-view__content-main">
+          <div class="my-view__column">
+            <div class="user-component__column">
+              <img
+                src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODA3MThfODgg%2FMDAxNTMxODg5MzYwNjgz.otXeCtSSiw6K6Q0MuewlLw96Q8W9RKS5codIzk_jKLog.DG5eW9iUxn5gNqTTKoh61HsQ9ltse7TmQZrIxHURVSEg.PNG.eco3345%2FKakaoTalk_20180718_133015802.png&type=sc960_832"
+                class="user-component__avatar user-component__avatar"
+              />
+              <div class="user-component__text">
+                <h4 class="my-view__title">
+                  로스트아크
+                  <i class="far fa-check-circle fa-xs"></i>
+                </h4>
+                <h6 class="my-view__subtitle">2시간 전 수정</h6>
+              </div>
+            </div>
+            <div class="my-view__column">
+              <span class="my-view__text-title"
+                >신비로운 기상의 조율자, 신규 클래스 '기상술사' 등장!!!
+              </span>
+              <span class="my-view__text-subtitle">
+                [Event 1]<br />
+                더욱 강력한 부/스/팅 하이퍼 익스프레스 PLUS!<br />
+                지금 접속시 점핑권 100% 지급!<br />
+                <br />
+                [Event 2]<br />
+                2022 SUMMER 마하라카 페스티벌!<br />
+
+                <i class="far fa-check-circle fa-xs"></i>한정 펫 '한여름의
+                코니'<br />
+                <i class="far fa-check-circle fa-xs"></i>설치물 '모코코
+                분수대'<br />
+                <i class="far fa-check-circle fa-xs"></i>각종 재련 및 성장
+                아이템 <br />
+                <i class="far fa-check-circle fa-xs"></i>로웬 아바타 <br />
+                <i class="far fa-check-circle fa-xs"></i>전설 카드팩
+              </span>
+            </div>
           </div>
-        </li>
-        <li class="settings__setting">
-          <div class="settings-setting-column">
-            <i class="fas fa-flask"></i>
-            <span>Kokoa Lab</span>
+          <div class="my-view__column"></div>
+        </div>
+      </div>
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4 class="open-chat__title">오픈 채팅</h4>
+          <span
+            >오픈 채팅 메인
+            <i class="fas fa-chevron-right fa-xs"></i>
+          </span>
+        </div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#IU</h5>
+            <h6 class="open-post__hashtags">#dlwlrma#uaena#friends</h6>
+            <div class="open-post__member">
+              <img
+                src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA3MDFfNzAg%2FMDAxNjU2Njg2MTMxNjE3.7ncCz9d7XgMyjYUTCZAQWh1gFIYuajZyPP1UxIkJ1mwg.yWa2Z2QakUy1DjkKo2e2_ck8-MzBc4Is8FX-ARKJ-fUg.JPEG.chlwogud123%2F59bbf73b123d0f9f693be3c3de9506b24a1f2a3067b4ffd0207a3a08eee32d750ebf1ca3e330.jpg&type=sc960_832"
+              />
+              <span class="open-post__member-count">19,930,516 members</span>
+              <div class="divider"></div>
+              <span class="open-post__member-status">Active</span>
+            </div>
           </div>
-        </li>
-        <li class="settings__setting">
-          <div class="settings-setting-column">
-            <i class="fas fa-info-circle"></i>
-            <span>version</span>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img
+                src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA3MDFfNzAg%2FMDAxNjU2Njg2MTMxNjE3.7ncCz9d7XgMyjYUTCZAQWh1gFIYuajZyPP1UxIkJ1mwg.yWa2Z2QakUy1DjkKo2e2_ck8-MzBc4Is8FX-ARKJ-fUg.JPEG.chlwogud123%2F59bbf73b123d0f9f693be3c3de9506b24a1f2a3067b4ffd0207a3a08eee32d750ebf1ca3e330.jpg&type=sc960_832"
+              />
+              <div class="open-post__heart-count">
+                <i class="fas fa-heart fa-xs"></i>
+                <span>999+</span>
+              </div>
+            </div>
           </div>
-          <div class="settings-setting-column">Latest Version</div>
-        </li>
-      </ul>
+        </div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#이무진</h5>
+            <h6 class="open-post__hashtags">#신호등#무궁무진</h6>
+            <div class="open-post__member">
+              <img
+                src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjAzMDVfNTkg%2FMDAxNjQ2NDc0NjU5NjA2.qrRjWUewWMx53siT02z2XzQt2ry2G38EiwPwn1_5suQg.rBoqqofVcJW_dXJHEaMwdiMbSBy-8t57AcP8B5iPgKMg.JPEG.call110926%2FInternet%25A3%25DF20220305%25A3%25DF190113%25A3%25DF10.jpeg&type=sc960_832"
+              />
+              <span class="open-post__member-count">2,000,121 members</span>
+              <div class="divider"></div>
+              <span class="open-post__member-status">Active</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img
+                src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjAzMDVfNTkg%2FMDAxNjQ2NDc0NjU5NjA2.qrRjWUewWMx53siT02z2XzQt2ry2G38EiwPwn1_5suQg.rBoqqofVcJW_dXJHEaMwdiMbSBy-8t57AcP8B5iPgKMg.JPEG.call110926%2FInternet%25A3%25DF20220305%25A3%25DF190113%25A3%25DF10.jpeg&type=sc960_832"
+              />
+              <div class="open-post__heart-count">
+                <i class="fas fa-heart fa-xs"></i>
+                <span>999+</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
     <!-- nav>ul>li*4>a -->
@@ -76,7 +175,7 @@
           ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="find.html"
+          <a class="nav__link" href="shopping.html"
             ><i class="fas fa-shopping-bag"></i
           ></a>
         </li>

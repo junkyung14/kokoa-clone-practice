@@ -45,7 +45,7 @@
   padding: 15px;
   text-align: center;
   border-radius: 25px;
-  margin-top: -15px;
+  margin-top: 10px;
   margin-bottom: 25px;
 }
 .message-row {
@@ -74,6 +74,10 @@
 .message__detail {
   display: flex;
   align-items: flex-end;
+  margin-bottom: 5px;
+}
+.last-bubble {
+  border-top-left-radius: 10px;
 }
 .message-row img {
   width: 50px;

@@ -5,7 +5,8 @@
 }
 .user-component {
   justify-content: space-between;
-  margin-bottom: 18px;
+  margin-bottom: 8px;
+  padding: 10px;
 }
 .user-component__avatar {
   width: 50px;
@@ -62,4 +63,7 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+.user-component:hover {
+  background-color: rgba(0, 0, 0, 0.1);
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Settings - KokoaTalk</title>
+    <title>shop - KokoaTalk</title>
     <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
@@ -18,42 +18,23 @@
         <i class="fas fa-battery-full fa-lg"></i>
       </div>
     </div>
-    <header class="alt-header">
-      <div class="alt-header__column">
-        <a href="javascript:history.back();"
-          ><i class="fas fa-angle-left fa-2x"></i
-        ></a>
-      </div>
-      <div class="alt-header__column">
-        <h1 class="alt-header__title">설정</h1>
-      </div>
-      <div class="alt-header__column">
-        <i class="fas fa-search fa-lg"></i>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">쇼핑</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-qrcode"></i></span>
+        <span
+          ><a href="settings.html"><i class="fas fa-cog"></i></a
+        ></span>
       </div>
     </header>
 
     <main class="main-screen">
-      <ul class="settings-list">
-        <li class="settings__setting">
-          <div class="settings-setting-column">
-            <i class="fas fa-bullhorn"></i>
-            <span>Notices</span>
-          </div>
-        </li>
-        <li class="settings__setting">
-          <div class="settings-setting-column">
-            <i class="fas fa-flask"></i>
-            <span>Kokoa Lab</span>
-          </div>
-        </li>
-        <li class="settings__setting">
-          <div class="settings-setting-column">
-            <i class="fas fa-info-circle"></i>
-            <span>version</span>
-          </div>
-          <div class="settings-setting-column">Latest Version</div>
-        </li>
-      </ul>
+      <div class="shop-text">
+        <span>네트워크 연결 상태가 좋지 않습니다.</span><br />
+        <span>서버 복구 후 다시 시도해 주세요.</span>
+        <div class="refresh-btn"><i class="fas fa-redo-alt fa-xs"></i></div>
+      </div>
     </main>
 
     <!-- nav>ul>li*4>a -->

@@ -1,17 +1,57 @@
 .icons-row {
+  width: 100%;
   margin-top: 30px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+.icons-row__icon span {
+  padding: 1px;
+  display: block;
+  text-align: center;
 }
 .icons-row__icon {
+  width: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .icons-row__icon i {
-  font-size: 35px;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.not-focused {
+  opacity: 0.3;
+}
+.my-view__now-focus {
+  opacity: 1;
 }
 .icons-row__icon span {
-  margin-top: 20px;
-  font-size: 12px;
+  font-size: 14px;
+}
+.kokoa-now {
+  margin-top: 15px;
+  width: 90%;
+  margin-bottom: 60px;
+}
+.kokoa-now-title {
+  font-size: 30px;
+}
+.kokoa-now-text-box {
+  margin-top: 10px;
+  width: 100%;
+  padding: 40px 0px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: whitesmoke;
+  border-radius: 10px;
+  text-align: center;
+}
+.kokoa-now-header {
+  font-size: 23px;
+  font-weight: 600;
+}
+.kokoa-now-subheader {
+  opacity: 0.5;
+  font-size: 20px;
 }

@@ -19,53 +19,125 @@
       </div>
     </div>
 
-    <header class="screen-header">
-      <h1 class="screen-header__title">More</h1>
+    <header class="screen-header more-topheader">
+      <h1 class="screen-header__title">더보기</h1>
       <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
+        <span><i class="fas fa-search"></i></span>
+        <span><i class="fas fa-qrcode"></i></span>
         <span
-          ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
+          ><a href="settings.html"><i class="fas fa-cog"></i></a
         ></span>
-        <span class="nav__more-info-cog__more"></span>
       </div>
     </header>
     <main class="main-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://blog.kakaocdn.net/dn/zfQQi/btrydI0vGzm/3YY3KrPEwKN558e27H6t0k/img.jpg"
-            class="user-component__avatar user-component__avatar--xl"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Junkyung</h4>
-            <h6 class="user-component__subtitle">123-456-7890</h6>
+      <div class="wallet-main">
+        <div class="user-component">
+          <div class="user-component__column">
+            <div class="wallet__title">
+              <h1 class="more-wallet-title">
+                지갑 <i class="fas fa-chevron-right fa-xs"></i>
+              </h1>
+            </div>
+          </div>
+          <div>
+            <span class="more-wallet-secu">
+              <i class="fas fa-shield-alt fa-xs"></i>인증서</span
+            >
           </div>
         </div>
-        <div class="user-component__column">
-          <i class="far fa-comment-alt fa-2x"></i>
+        <div class="wallet-subtitle">
+          <i class="fas fa-wallet"></i
+          ><span class="subtitle__text"
+            >지갑 서비스 정상화 안내
+            <i class="fas fa-chevron-right fa-xs"></i>
+          </span>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="icons-row">
+        <div class="icons-row__icon">
+          <i class="fas fa-gift"></i>
+          <span>선물하기</span>
+        </div>
+        <div class="icons-row__icon">
+          <i class="fas fa-store"></i>
+          <span>쇼핑하기</span>
+        </div>
+        <div class="icons-row__icon">
+          <i class="fab fa-google-plus"></i>
+          <span>메이커스</span>
+        </div>
+        <div class="icons-row__icon">
+          <i class="fas fa-paw"></i>
+          <span>프렌즈</span>
         </div>
       </div>
       <div class="icons-row">
         <div class="icons-row__icon">
-          <i class="fas fa-qrcode"></i>
-          <span>QR CODE</span>
+          <i class="far fa-laugh-squint"></i>
+          <span>이모티콘</span>
         </div>
         <div class="icons-row__icon">
-          <i class="fas fa-address-book"></i>
-          <span>Add by Contacts</span>
+          <i class="fas fa-archive"></i>
+          <span>톡서랍</span>
         </div>
         <div class="icons-row__icon">
-          <i class="fas fa-fingerprint"></i>
-          <span>Add by ID</span>
+          <i class="fas fa-envelope"></i>
+          <span>메일</span>
         </div>
         <div class="icons-row__icon">
-          <i class="far fa-envelope"></i>
-          <span>Invite</span>
+          <i class="far fa-calendar-check"></i>
+          <span>캘린더</span>
         </div>
       </div>
-    </main>
-
+      <div class="icons-row">
+        <div class="icons-row__icon">
+          <i class="fas fa-gamepad"></i>
+          <span>게임</span>
+        </div>
+        <div class="icons-row__icon">
+          <i class="fas fa-weight-hanging"></i>
+          <span>패션</span>
+        </div>
+        <div class="icons-row__icon">
+          <i class="fas fa-utensils"></i>
+          <span>주문하기</span>
+        </div>
+        <div class="icons-row__icon">
+          <i class="fas fa-ticket-alt"></i>
+          <span>멜론티켓</span>
+        </div>
+      </div>
+      <div class="icons-row">
+        <div class="icons-row__icon">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>카카오맵</span>
+        </div>
+        <div class="icons-row__icon">
+          <i class="fas fa-comments"></i>
+          <span>오픈채팅</span>
+        </div>
+        <div class="icons-row__icon">
+          <i class="fas fa-id-card"></i>
+          <span>톡명함</span>
+        </div>
+        <div class="icons-row__icon">
+          <i class="fas fa-th-large"></i>
+          <span>전체서비스</span>
+        </div>
+      </div>
+    </footer>
+    <div class="kokoa-now">
+      <h1 class="kokoa-now-title">카카오 나우</h1>
+      <div class="kokoa-now-text-box">
+        <span class="kokoa-now-header">주요 기능 복구 안내</span><br />
+        <span class="kokoa-now-subheader"
+          >완전히 정상화될 때까지,<br />
+          최선을 다하겠습니다</span
+        >
+      </div>
+    </div>
     <!-- nav>ul>li*4>a -->
     <nav class="nav">
       <ul class="nav__list">
@@ -86,7 +158,7 @@
           ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="find.html"
+          <a class="nav__link" href="shopping.html"
             ><i class="fas fa-shopping-bag"></i
           ></a>
         </li>

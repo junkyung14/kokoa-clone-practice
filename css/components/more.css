@@ -1,0 +1,30 @@
+.wallet__title {
+  font-size: 25px;
+}
+.more-wallet-title {
+  font-weight: 600;
+}
+.more-wallet-secu {
+  font-size: 18px;
+}
+.wallet-subtitle {
+  padding: 10px 5px;
+  background-color: whitesmoke;
+}
+.fa-wallet {
+  margin: 0px 8px;
+}
+.wallet-main {
+  width: 100%;
+  background-color: var(--yellow);
+  height: auto;
+}
+.main-wallet {
+  border-top: var(--horizontal-space);
+  margin: 120px 0px;
+  padding: 0px var(--horizontal-space);
+}
+footer {
+  width: 90%;
+  padding: 0px 10px 0px 10px;
+}

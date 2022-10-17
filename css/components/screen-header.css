@@ -1,4 +1,6 @@
 .screen-header {
+  background-color: white;
+  z-index: 97;
   display: flex;
   justify-content: space-between;
   padding: var(--horizontal-space);
@@ -7,6 +9,7 @@
   width: 100%;
   box-sizing: border-box;
   top: 32px;
+  padding-bottom: 0px;
 }
 .screen-header__title {
   font-size: 25px;
