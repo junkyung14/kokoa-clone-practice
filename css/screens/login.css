@@ -1,4 +1,5 @@
 .Welcome-header {
+  width: 80%;
   margin: 90px 0px;
   text-align: center;
   display: flex;
@@ -10,9 +11,16 @@
   font-size: 25px;
   font-weight: 600;
 }
-.Welcome-header__text {
-  width: 50%;
+.Welcome-header__text p {
+  width: 90%;
   opacity: 0.7;
+}
+.alert {
+  opacity: 1;
+  font-size: 12px;
+  background-color: var(--yellow);
+  padding: 5px;
+  border-radius: 5px;
 }
 
 #login-form {
